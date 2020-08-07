@@ -48,6 +48,10 @@ blockquote {
 hr {
   @apply mb-6;
 }
+pre {
+  @apply overflow-auto p-3 my-1;
+  background-color: #f5f2f0;
+}
 
 @tailwind components;
 
